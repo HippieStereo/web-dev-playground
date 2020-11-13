@@ -31,7 +31,7 @@
           <li class="nav-item active">
             <a href="about.html" class="nav-link">About Us</a>
           </li>
-          <li class="nav-item"></li>
+          <li class="nav-item">
             <a href="services.html" class="nav-link">Services</a>
           </li>
           <li class="nav-item">
@@ -143,7 +143,54 @@
       </div>
     </div>
   </section>
-
+  <!-- TESTIMONIALS -->
+  <section id="testimonials" class="p-4 bg-dark text-white">
+    <div class="container">
+      <h2 class="text-center">Testimonials</h2>
+      <div class="row text-center">
+        <div class="col">
+          <div class="slider">
+            <!-- ITEM 1 -->
+            <div>
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, repellat.
+                </p>
+                <footer class="blockquote-footer">
+                  Name 1
+                  <cite title="Company 1">Company 1</cite>
+                </footer>
+              </blockquote>
+            </div>
+            <!-- ITEM 2 -->
+            <div>
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, repellat.
+                </p>
+                <footer class="blockquote-footer">
+                  Name 2
+                  <cite title="Company 1">Company 2</cite>
+                </footer>
+              </blockquote>
+            </div>
+            <!-- ITEM 3 -->
+            <div>
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, repellat.
+                </p>
+                <footer class="blockquote-footer">
+                  Name 3
+                  <cite title="Company 1">Company 3</cite>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- FOOTER -->
   <footer id="id-footer" class="text-center p-4">
     <div class="container">
@@ -168,6 +215,13 @@
   <script>
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
+
+    // Init Slider
+    $('.slider').slick({
+      infinite: true,
+      slideToShow: 1,
+      slideToScroll: 1
+    });
   </script>
 
 </body>
