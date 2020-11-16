@@ -12,8 +12,80 @@
 </head>
 
 <body>
-  <!-- START HERE -->
-
+  <!-- SITE CONTAINER -->
+  <div class="container">
+    <header id="id-main-header">
+      <div class="row no-gutters">
+        <!-- COL LEFT - USER IMG -->
+        <div class="col-lg-4 col-md-5">
+          <img src="img/person1.jpg" class="main-header-img ">
+        </div>
+        <!-- COL LEFT -  -->
+        <div class="col-lg-8 col-md-7">
+          <!-- FLEX - 3 ROWS -->
+          <div class="d-flex flex-column">
+            <div class="p-5 bg-dark text-white">
+              <!-- ROW - NAME . ICONS -->
+              <div class="d-flex flex-row justify-content-between align-items-center">
+                <h1 class="display-4">João Luís</h1>
+                <!-- ICON - TWITTER -->
+                <div class="d-none d-md-block">
+                  <a href="http://twitter.com" target="blank" class="text-white">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </div>
+                <!-- ICON - TWITTER -->
+                <div class="d-none d-md-block">
+                  <a href="http://twitter.com" target="blank" class="text-white">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </div>
+                <!-- ICON - TWITTER -->
+                <div class="d-none d-md-block">
+                  <a href="http://twitter.com" target="blank" class="text-white">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+                <!-- ICON - TWITTER -->
+                <div class="d-none d-md-block">
+                  <a href="http://twitter.com" target="blank" class="text-white">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- ROW - TEXT -->
+            <div class="p-4 bg-black text-white">
+              <div class="span">Full Stack Web Developer</div>
+            </div>
+          </div>
+          <!-- ROW - MENU -->
+          <div class="d-flex flex-row text-white align-items-stretch text-center">
+            <!-- COL - HOME -->
+            <div class="portfolio-item p-4 bg-primary" data-toggle="collapse" data-target="#id-home">
+              <i class="fas fa-home fa-2x d-block"></i>
+              <span class="d-none d-sm-block">Home</span>
+            </div>
+            <!-- COL - RESUME -->
+            <div class="portfolio-item p-4 bg-success" data-toggle="collapse" data-target="#id-resume">
+              <i class="fas fa-graduation-cap fa-2x d-block"></i>
+              <span class="d-none d-sm-block">Resume</span>
+            </div>
+            <!-- COL - WORK -->
+            <div class="portfolio-item p-4 bg-warning" data-toggle="collapse" data-target="#id-work">
+              <i class="fas fa-folder-open fa-2x d-block"></i>
+              <span class="d-none d-sm-block">Work</span>
+            </div>
+            <!-- COL - CONTACT -->
+            <div class="portfolio-item p-4 bg-danger" data-toggle="collapse" data-target="#id-contact">
+              <i class="fas fa-envelope fa-2x d-block"></i>
+              <span class="d-none d-sm-block">Contact</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
   
   <!-- SCRIPTS -->
   <script src="js/jquery-3.5.1.min.js"></script>
